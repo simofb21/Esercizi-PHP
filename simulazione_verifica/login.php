@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Login page</title>
+        <style>
+            body{
+                text-align:center;     
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Login </h1>
+        <form action = "elogin.php" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Login">
+        </form>
+        <p>Non sei loggato  ? <a href="registrati.php">Registrati</a></p>
+    </body>
+</html>

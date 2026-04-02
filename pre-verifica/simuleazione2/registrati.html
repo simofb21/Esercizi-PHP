@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Registrazione</title>
+    <style>
+      body {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registrati</h1>
+    <form action="register.php" method="post">
+      <!-- name è quello che recupero in $_SESSION -->
+      Nome : <input type="text" name="nome" required /> <br />Email :
+      <input type="email" name="email" required /> <br />Password :
+      <input type="password" name="password" required />
+
+      <br />
+      Completa registrazione : <input type="submit" value="Invia form" />
+      <br />Cancella : <input type="reset" value="Cancella dati" />
+    </form>
+  </body>
+</html>
